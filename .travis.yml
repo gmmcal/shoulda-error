@@ -8,6 +8,9 @@ cache:
     - /home/travis/.npm
     - /home/travis/.cache
 
+install:
+  - bundle install
+
 before_script:
   - bundle exec rails db:migrate
 
