@@ -2,16 +2,16 @@ language: ruby
 
 dist: xenial
 
-rvm: 2.6.3
+rvm:
+  - 2.4.6
+  - 2.5.5
+  - 2.6.3
 
 cache:
   directories:
     - /home/travis/.rvm
     - /home/travis/.npm
     - /home/travis/.cache
-
-install:
-  - bundle install
 
 before_script:
   - bundle exec rake db:migrate
