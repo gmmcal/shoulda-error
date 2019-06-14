@@ -3,14 +3,12 @@ language: ruby
 dist: xenial
 
 rvm:
-  - 2.4.6
   - 2.5.5
   - 2.6.3
 
 cache:
   directories:
     - /home/travis/.rvm
-    - /home/travis/.npm
     - /home/travis/.cache
 
 before_script:
