@@ -8,8 +8,6 @@ rvm:
 
 gemfile:
   - Gemfile
-  - gemfiles/4.0.rails5.gemfile
-  - gemfiles/4.1.rails5.gemfile
   - gemfiles/4.0.rails6.gemfile
 
 cache:
