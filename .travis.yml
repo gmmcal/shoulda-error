@@ -6,6 +6,12 @@ rvm:
   - 2.5.5
   - 2.6.3
 
+gemfile:
+  - Gemfile
+  - gemfiles/4.0.rails5.gemfile
+  - gemfiles/4.1.rails5.gemfile
+  - gemfiles/4.0.rails6.gemfile
+
 cache:
   directories:
     - /home/travis/.rvm
